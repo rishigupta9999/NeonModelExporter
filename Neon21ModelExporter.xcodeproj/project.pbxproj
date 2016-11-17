@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570AA85E1165E4ED002F8DE8 /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570AA85D1165E4ED002F8DE8 /* Animation.cpp */; };
+		570AA8671165E570002F8DE8 /* AnimationClipParse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570AA8661165E570002F8DE8 /* AnimationClipParse.cpp */; };
+		570AA86D1165E607002F8DE8 /* AnimationClip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570AA86C1165E607002F8DE8 /* AnimationClip.cpp */; };
+		572FF4861172D0FE0031E9D3 /* AnimationClipSerialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 572FF4851172D0FE0031E9D3 /* AnimationClipSerialize.cpp */; };
+		575B06C4101C06FF00F81005 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575B06C3101C06FF00F81005 /* CoreServices.framework */; };
+		576D2BC110780D29005F027B /* MeshSerialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576D2BC010780D29005F027B /* MeshSerialize.cpp */; };
+		576D2D2210783331005F027B /* SkeletonSerialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576D2D2110783331005F027B /* SkeletonSerialize.cpp */; };
+		577B398B1412D3BB00DF490E /* libFColladaS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 577B398A1412D3BB00DF490E /* libFColladaS.a */; };
+		5793999A1583377400D34929 /* Logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 579399991583377400D34929 /* Logging.cpp */; };
+		57A9447D107021DC000A80C3 /* NeonMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A9447C107021DC000A80C3 /* NeonMath.c */; };
+		57BB47BC105EE2AA00F8CFF2 /* GeometryParse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57BB47B3105EE2AA00F8CFF2 /* GeometryParse.cpp */; };
+		57BB47BE105EE2AA00F8CFF2 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57BB47B8105EE2AA00F8CFF2 /* Mesh.cpp */; };
+		57BB47BF105EE2AA00F8CFF2 /* Skeleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57BB47BA105EE2AA00F8CFF2 /* Skeleton.cpp */; };
+		57BB4896105EEA3300F8CFF2 /* ControllerParse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57BB4895105EEA3300F8CFF2 /* ControllerParse.cpp */; };
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		570AA8521165DC80002F8DE8 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		570AA85D1165E4ED002F8DE8 /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
+		570AA8651165E566002F8DE8 /* AnimationClipParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationClipParse.h; sourceTree = "<group>"; };
+		570AA8661165E570002F8DE8 /* AnimationClipParse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationClipParse.cpp; sourceTree = "<group>"; };
+		570AA86B1165E601002F8DE8 /* AnimationClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationClip.h; sourceTree = "<group>"; };
+		570AA86C1165E607002F8DE8 /* AnimationClip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationClip.cpp; sourceTree = "<group>"; };
+		572FF4841172D0F10031E9D3 /* AnimationClipSerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationClipSerialize.h; sourceTree = "<group>"; };
+		572FF4851172D0FE0031E9D3 /* AnimationClipSerialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationClipSerialize.cpp; sourceTree = "<group>"; };
+		575B06C3101C06FF00F81005 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		576D2BC010780D29005F027B /* MeshSerialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshSerialize.cpp; sourceTree = "<group>"; };
+		576D2BC210780D33005F027B /* MeshSerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshSerialize.h; sourceTree = "<group>"; };
+		576D2C2010781326005F027B /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		576D2D1C107832A6005F027B /* SkeletonSerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonSerialize.h; sourceTree = "<group>"; };
+		576D2D2110783331005F027B /* SkeletonSerialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SkeletonSerialize.cpp; sourceTree = "<group>"; };
+		577B398A1412D3BB00DF490E /* libFColladaS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFColladaS.a; path = FCollada_FREE_3/FCollada/build/Debug/libFColladaS.a; sourceTree = "<group>"; };
+		579399971583376000D34929 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		579399991583377400D34929 /* Logging.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logging.cpp; sourceTree = "<group>"; };
+		57A9447B107021DC000A80C3 /* NeonMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeonMath.h; sourceTree = "<group>"; };
+		57A9447C107021DC000A80C3 /* NeonMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NeonMath.c; sourceTree = "<group>"; };
+		57AA247F10258CEC001FDCF5 /* ModelExporterDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelExporterDefines.h; sourceTree = "<group>"; };
+		57BB47B3105EE2AA00F8CFF2 /* GeometryParse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryParse.cpp; sourceTree = "<group>"; };
+		57BB47B4105EE2AA00F8CFF2 /* GeometryParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryParse.h; sourceTree = "<group>"; };
+		57BB47B8105EE2AA00F8CFF2 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		57BB47B9105EE2AA00F8CFF2 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		57BB47BA105EE2AA00F8CFF2 /* Skeleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Skeleton.cpp; sourceTree = "<group>"; };
+		57BB47BB105EE2AA00F8CFF2 /* Skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skeleton.h; sourceTree = "<group>"; };
+		57BB4894105EEA3300F8CFF2 /* ControllerParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerParse.h; sourceTree = "<group>"; };
+		57BB4895105EEA3300F8CFF2 /* ControllerParse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControllerParse.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* Neon21ModelExporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Neon21ModelExporter; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575B06C4101C06FF00F81005 /* CoreServices.framework in Frameworks */,
+				577B398B1412D3BB00DF490E /* libFColladaS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Neon21ModelExporter */ = {
+			isa = PBXGroup;
+			children = (
+				577B398A1412D3BB00DF490E /* libFColladaS.a */,
+				575B06C3101C06FF00F81005 /* CoreServices.framework */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Neon21ModelExporter;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				57BB47B2105EE2AA00F8CFF2 /* Parsers */,
+				57BB47B7105EE2AA00F8CFF2 /* Objects */,
+				576D2BBF10780D29005F027B /* Serializers */,
+				57AA247F10258CEC001FDCF5 /* ModelExporterDefines.h */,
+				576D2C2010781326005F027B /* main.h */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				579399971583376000D34929 /* Logging.h */,
+				579399991583377400D34929 /* Logging.cpp */,
+				57A9447B107021DC000A80C3 /* NeonMath.h */,
+				57A9447C107021DC000A80C3 /* NeonMath.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* Neon21ModelExporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		576D2BBF10780D29005F027B /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				572FF4841172D0F10031E9D3 /* AnimationClipSerialize.h */,
+				572FF4851172D0FE0031E9D3 /* AnimationClipSerialize.cpp */,
+				576D2BC210780D33005F027B /* MeshSerialize.h */,
+				576D2BC010780D29005F027B /* MeshSerialize.cpp */,
+				576D2D1C107832A6005F027B /* SkeletonSerialize.h */,
+				576D2D2110783331005F027B /* SkeletonSerialize.cpp */,
+			);
+			path = Serializers;
+			sourceTree = "<group>";
+		};
+		57BB47B2105EE2AA00F8CFF2 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				570AA8651165E566002F8DE8 /* AnimationClipParse.h */,
+				570AA8661165E570002F8DE8 /* AnimationClipParse.cpp */,
+				57BB4895105EEA3300F8CFF2 /* ControllerParse.cpp */,
+				57BB4894105EEA3300F8CFF2 /* ControllerParse.h */,
+				57BB47B3105EE2AA00F8CFF2 /* GeometryParse.cpp */,
+				57BB47B4105EE2AA00F8CFF2 /* GeometryParse.h */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		57BB47B7105EE2AA00F8CFF2 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				570AA8521165DC80002F8DE8 /* Animation.h */,
+				570AA85D1165E4ED002F8DE8 /* Animation.cpp */,
+				570AA86B1165E601002F8DE8 /* AnimationClip.h */,
+				570AA86C1165E607002F8DE8 /* AnimationClip.cpp */,
+				57BB47B8105EE2AA00F8CFF2 /* Mesh.cpp */,
+				57BB47B9105EE2AA00F8CFF2 /* Mesh.h */,
+				57BB47BA105EE2AA00F8CFF2 /* Skeleton.cpp */,
+				57BB47BB105EE2AA00F8CFF2 /* Skeleton.h */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* Neon21ModelExporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Neon21ModelExporter" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neon21ModelExporter;
+			productInstallPath = "$(HOME)/bin";
+			productName = Neon21ModelExporter;
+			productReference = 8DD76F6C0486A84900D96B5E /* Neon21ModelExporter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Neon21ModelExporter" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Neon21ModelExporter */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* Neon21ModelExporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				57BB47BC105EE2AA00F8CFF2 /* GeometryParse.cpp in Sources */,
+				57BB47BE105EE2AA00F8CFF2 /* Mesh.cpp in Sources */,
+				57BB47BF105EE2AA00F8CFF2 /* Skeleton.cpp in Sources */,
+				57BB4896105EEA3300F8CFF2 /* ControllerParse.cpp in Sources */,
+				57A9447D107021DC000A80C3 /* NeonMath.c in Sources */,
+				576D2BC110780D29005F027B /* MeshSerialize.cpp in Sources */,
+				576D2D2210783331005F027B /* SkeletonSerialize.cpp in Sources */,
+				570AA85E1165E4ED002F8DE8 /* Animation.cpp in Sources */,
+				570AA8671165E570002F8DE8 /* AnimationClipParse.cpp in Sources */,
+				570AA86D1165E607002F8DE8 /* AnimationClip.cpp in Sources */,
+				572FF4861172D0FE0031E9D3 /* AnimationClipSerialize.cpp in Sources */,
+				5793999A1583377400D34929 /* Logging.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FCollada_FREE_3/FCollada/build/Debug\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Neon21ModelExporter;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FCollada_FREE_3/FCollada/build/Debug\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Neon21ModelExporter;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FCollada_FREE_3/FCollada\"";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FCollada_FREE_3/FCollada\"";
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FCollada_FREE_3/FCollada\"";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FCollada_FREE_3/FCollada\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Neon21ModelExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Neon21ModelExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <created>2009-07-26T01:36:22Z</created>
+    <modified>2009-07-26T01:36:22Z</modified>
+  </asset>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode">
+      <node id="VisualSceneNode1" type="NODE">
+        <instance_camera url="./XRefDocBot.dae#Camera"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
